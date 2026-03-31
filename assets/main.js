@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbzFf8I3nPQBBZVy9VApgwcO0JxD2CAVlczJaICk_TEkxVOspq2Q735RwGlR2DcKcXfyoA/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbxu2e9K0JbrjeADxRcRABIMmyewOxSw0RTD92uMxBhrtoHiisoQCsJDraJyQfH714GPcg/exec";
 // Envoi du formulaire
 const form = document.getElementById("dispoForm");
 if (form) {
