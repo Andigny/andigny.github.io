@@ -1,6 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbwICBwJcaGzX78E983604Uj-FbNq28_nOevRjswkHw9SzXXGXOhW5HbENvgrfv0HOrX/exec";
-
-
+const API_URL = "https://script.google.com/macros/s/AKfycbzFf8I3nPQBBZVy9VApgwcO0JxD2CAVlczJaICk_TEkxVOspq2Q735RwGlR2DcKcXfyoA/exec";
 // Envoi du formulaire
 const form = document.getElementById("dispoForm");
 if (form) {
@@ -15,7 +13,7 @@ if (form) {
 
     const payload = { pseudo, dispos, commentaire };
 
-    const res = await fetch(API_URL, {
+    await fetch(API_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
