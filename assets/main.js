@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbwNQZjvreQ68RrCglSUnm1V-s1kvKGmK-1GU7v3buxv0RZNNt1phG7abOhWTeh4cIQr/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbwICBwJcaGzX78E983604Uj-FbNq28_nOevRjswkHw9SzXXGXOhW5HbENvgrfv0HOrX/exec";
 
 
 // Envoi du formulaire
