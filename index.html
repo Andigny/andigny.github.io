@@ -1,41 +1,54 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Disponibilités BF6 - Team</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
+<label>Disponibilités</label>
 
-<div class="container">
-  <h1>Disponibilités Battlefield 6</h1>
+<div class="calendar-grid">
 
-  <form id="dispoForm">
-    <label>Pseudo</label>
-    <input type="text" id="pseudo" required>
+  <div class="day">
+    <span>Lundi</span>
+    <label><input type="checkbox" value="Lundi matin"> Matin</label>
+    <label><input type="checkbox" value="Lundi après-midi"> Après-midi</label>
+    <label><input type="checkbox" value="Lundi soir"> Soir</label>
+  </div>
 
-    <label>Disponibilités</label>
-    <div class="checkboxes">
-      <label><input type="checkbox" value="Lundi soir"> Lundi soir</label>
-      <label><input type="checkbox" value="Mardi soir"> Mardi soir</label>
-      <label><input type="checkbox" value="Mercredi soir"> Mercredi soir</label>
-      <label><input type="checkbox" value="Jeudi soir"> Jeudi soir</label>
-      <label><input type="checkbox" value="Vendredi soir"> Vendredi soir</label>
-      <label><input type="checkbox" value="Samedi soir"> Samedi soir</label>
-      <label><input type="checkbox" value="Dimanche soir"> Dimanche soir</label>
-    </div>
+  <div class="day">
+    <span>Mardi</span>
+    <label><input type="checkbox" value="Mardi matin"> Matin</label>
+    <label><input type="checkbox" value="Mardi après-midi"> Après-midi</label>
+    <label><input type="checkbox" value="Mardi soir"> Soir</label>
+  </div>
 
-    <label>Commentaire (optionnel)</label>
-    <textarea id="commentaire"></textarea>
+  <div class="day">
+    <span>Mercredi</span>
+    <label><input type="checkbox" value="Mercredi matin"> Matin</label>
+    <label><input type="checkbox" value="Mercredi après-midi"> Après-midi</label>
+    <label><input type="checkbox" value="Mercredi soir"> Soir</label>
+  </div>
 
-    <button type="submit">Envoyer</button>
-  </form>
+  <div class="day">
+    <span>Jeudi</span>
+    <label><input type="checkbox" value="Jeudi matin"> Matin</label>
+    <label><input type="checkbox" value="Jeudi après-midi"> Après-midi</label>
+    <label><input type="checkbox" value="Jeudi soir"> Soir</label>
+  </div>
 
-  <p id="status"></p>
+  <div class="day">
+    <span>Vendredi</span>
+    <label><input type="checkbox" value="Vendredi matin"> Matin</label>
+    <label><input type="checkbox" value="Vendredi après-midi"> Après-midi</label>
+    <label><input type="checkbox" value="Vendredi soir"> Soir</label>
+  </div>
 
-  <a href="dispos.html" class="link">Voir les disponibilités</a>
+  <div class="day">
+    <span>Samedi</span>
+    <label><input type="checkbox" value="Samedi matin"> Matin</label>
+    <label><input type="checkbox" value="Samedi après-midi"> Après-midi</label>
+    <label><input type="checkbox" value="Samedi soir"> Soir</label>
+  </div>
+
+  <div class="day">
+    <span>Dimanche</span>
+    <label><input type="checkbox" value="Dimanche matin"> Matin</label>
+    <label><input type="checkbox" value="Dimanche après-midi"> Après-midi</label>
+    <label><input type="checkbox" value="Dimanche soir"> Soir</label>
+  </div>
+
 </div>
-
-<script src="assets/main.js"></script>
-</body>
-</html>
