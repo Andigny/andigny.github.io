@@ -1,5 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbx0alfrOepf11fxS2puNk1VogM2gA-JwoyW0_7Qv65aqqbWSHXcwP4YDatyzY6iqQg5/exec";
-
+const API_URL = "https://script.google.com/macros/s/AKfycbwtLU7An2bB6OWEat__vvbe_eFHW0Y31R6qjAiuqxZFfzNBkgIdhXA_vxt41l100UKi/exec";
 
 // Envoi du formulaire
 const form = document.getElementById("dispoForm");
@@ -17,6 +16,9 @@ if (form) {
 
     const res = await fetch(API_URL, {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
       body: JSON.stringify(payload)
     });
 
