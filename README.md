@@ -1,2 +1,0 @@
-# andigny.github.io
-technique
