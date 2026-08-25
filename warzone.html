@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Warzone Hub</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle at top, #222 0%, #000 60%);
+            color: #f5f5f5;
+        }
+
+        .wrapper {
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Encart en haut à droite */
+        .news-box {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 280px;
+            background: rgba(15, 15, 15, 0.9);
+            border: 2px solid #00ff9d;
+            box-shadow: 0 0 15px rgba(0, 255, 157, 0.4);
+            padding: 15px;
+        }
+
+        .news-title {
+            font-size: 16px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #00ff9d;
+            margin-bottom: 8px;
+        }
+
+        .news-content {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        /* Zone centrale pour l'image */
+        .center-area {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 120px; /* pour ne pas passer sous l'encart */
+        }
+
+        .center-area img {
+            max-width: 80%;
+            height: auto;
+            border: 3px solid #444;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Encart News / Codes -->
+        <div class="news-box">
+            <div class="news-title">NEWS / CODES</div>
+            <div class="news-content">
+                <!-- Tu peux mettre ici le texte que tu veux -->
+                Codes des bunkers Warzone<br>
+                - Bunker 0 : Code : 01011000 - Sud de Hills<br>
+				- Bunker 1 : Code : 04222021 - Est de Boneyard<br>
+				- Bunker 2 : Carte bleue - Nord-est de Boneyard<br>
+				- Bunker 3 : Code : 30198805 - Nord-est de Boneyard<br>
+				- Bunker 4 : Carte rouge - Dam<br>
+				- Bunker 5 : Carte rouge - Sud de Military Base<br>
+				- Bunker 6 : Carte rouge - Est de Quarry<br>
+				- Bunker 7 : Carte bleue - Nord-ouest du Stade<br>
+				- Bunker 8 : Carte bleue - Nord-ouest du Stade<br>
+				- Bunker 9 : Carte rouge - Prison<br>
+				- Bunker 10 : Code : 31547206 - Park<br>
+				- Bunker 11 : Code : Easter egg - Nord de Military Base<br>
+				
+				 Codes Cabanes Warzone<br>
+				 - Code : 01859472 - Est de TV Station<br>
+				 - Code : 36158294 - Farmland<br>
+				 - Code : 13584927 - Ouest de la Prison<br>
+                
+            </div>
+        </div>
+
+        <!-- Zone centrale avec l'image -->
+        <div class="center-area">
+            <!-- Assure-toi que warzone.jpg est dans le même dossier que ce fichier HTML -->
+            <img src="warzone.jpg" alt="Warzone">
+        </div>
+    </div>
+</body>
+</html>
